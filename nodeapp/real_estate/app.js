@@ -28,6 +28,15 @@ app.use(express.static(path.join(__dirname, 'public')));
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
+/*
+  All this gets deleted
+*/
+
+
+/*
+  End Delete
+*/
+
 
 app.set('imageStorage', __dirname + "/public/images/");
 

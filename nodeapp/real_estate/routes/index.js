@@ -5,11 +5,11 @@ fs = require('fs');
 _ = require('underscore');
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'The Express Bus' });
 };
 
 exports.randomName = function(req, res){
-  res.render('index', { title: 'Exprkjhkjjess' });
+  res.render('index', { title: 'what what' });
 };
 
 exports.fileupload = function(req, res){
